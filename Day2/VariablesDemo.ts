@@ -7,10 +7,10 @@
 //syntax for creating a variable
 //keyword variablename:Datatype=value
 
-var age:number=30;
+// var age:number=30;
 // var age=30;
 
-console.log(age);
+// console.log(age);
 
 //Difference between Var,Let and Const -Based on the 5 parameters we can differentiate
 /*
@@ -33,13 +33,13 @@ console.log(age);
 
     if(true){
         var msg="Hello world";
-        // console.log(msg);
+    //   console.log(msg);
     }
-    console.log(msg);
+     console.log(msg);
 }
 varscope();
- */
 
+ */
 //Ex2: Let (Block Scope)
 
 /* function blockscope(){
@@ -47,9 +47,12 @@ varscope();
 
         let msg="Hello world";
         const greet="Hello const"
-        console.log(msg);
-        console.log(greet);
+        // console.log(msg);
+        // console.log(greet);
     }
+    // console.log(msg);  // we cannot access as this are block scope
+    // console.log(greeting); // we cannot access as this are block scope
+    
 }
 blockscope(); */
 
@@ -64,30 +67,34 @@ blockscope(); */
         console.log(num2);
         console.log(num3);
     }
+    
 }
-scopeDiff(); */
+scopeDiff();
+ */
 
 
 //2.Declaration/value assignment
-/* //Ex1: using var
-var x;  //declaration
-console.log(x);
-x=30;  //initialization
+//Ex1: using var
+/* var x;  //declaration
 console.log(x);
 
+x=30;  //initialization
+console.log(x);
  */
+
 
 //Ex2: using let
 /* let x;  //declaration
 console.log(x);
 x=30;  //initialization
-console.log(x); */
+console.log(x);
+ */
 
 //Ex 3: Using const
-/* const z;
-console.log(z); */
-
-
+// const z;  //incorrect
+/* const z=50;   //correct it will print the value of z
+console.log(z);
+ */
 
 //3. Re-declaration
 //var- it allows the redeclaration
@@ -100,13 +107,13 @@ console.log(city); */
 //Ex2: let
 /* let country="India";
 let country="USA";
-console.log(country); */
-
+console.log(country);
+ */
 
 //Ex3: using const
 /* const planet="Earth";
-const planet="Mars"; */
-
+const planet="Mars";
+console.log(planet); */
 
 //4.Re-initialization/re-assigning value
 //Var and let allows the reassignment the value
@@ -126,8 +133,8 @@ age1=35; //not allowed
 console.log(age1); */
 
 //5.Hoisting
-// console.log(a); //undefined
-/* var a=10;
+/* console.log(a); //undefined
+var a=10;
 console.log(a); */
 
 //using let

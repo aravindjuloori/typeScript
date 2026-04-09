@@ -1,20 +1,23 @@
-//Java script is dynamically typed programming language
+//Javascript is a dynamically typed programming language
 
-/* let age=20;   // age is the number type
-console.log(typeof(age))  //number
+/* let age=25;  
+console.log(typeof(age)); //Number
 
-age="thirty"  // age data type is String now
-console.log(typeof(age));   //String
+age="Thirty";
+console.log(typeof(age))  //String
 
-console.log("The updated age  value is : " +age)  // Thirty
 
+console.log(age); //Thirty */
+
+
+//Javascript-- it is not type safety
+
+/* let message="Hello";  //String
+let count=40;  //Number
+
+message=100;   //Number
  */
 
-//Type safety
 
-let message="Hello";
-let count=40;
-
-message=100;
-
-
+let result="5"+3;
+console.log(result);
