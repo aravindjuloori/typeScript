@@ -1,3 +1,3 @@
 console.log("Hello world");
 
-console.log("Welcome to TypeScript");
+console.log("Welcome to typescript");
