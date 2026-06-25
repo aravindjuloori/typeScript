@@ -1,6 +1,6 @@
 //single line comment  shourcut is CTRL+/
 
-// console.log("Single Line comment");
+console.log("Single Line comment");
 
 
 //multiline comment shortcut is SHIFT+ALT+A

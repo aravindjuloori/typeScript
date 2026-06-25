@@ -2,15 +2,17 @@
 
 
 //In javascript and typescript we can declare the variables using 3 keywords var,let and const
-//in javascript and typescript specifying the data type is optional
+//In javascript and typescript specifying the data type is optional
 
 //syntax for creating a variable
 //keyword variablename:Datatype=value
 
 // var age:number=30;
-// var age=30;
+/* var age=30;
 
-// console.log(age);
+console.log(age);
+ */
+
 
 //Difference between Var,Let and Const -Based on the 5 parameters we can differentiate
 /*
@@ -21,7 +23,7 @@
 5.Hoisting
 */
 
-//Var is not recommended to use in mordern javascipt/typescript.Avoid var because it has function scope and can lead to unexpected
+//Var is not recommended to use in mordern javascipt/typescript.Avoid var because it has function scope and can lead to unexpected issues
 
 //let -- we can use let when you need a variable value that can change
 //const- we can use const when you need a variable value that we can't change it
@@ -29,17 +31,16 @@
 
 //Ex1:var(Functional scope)
 
-/* function varscope(){
+/* function varScope(){
 
     if(true){
         var msg="Hello world";
-    //   console.log(msg);
+        // console.log(msg);
     }
-     console.log(msg);
+    console.log(msg);
 }
-varscope();
+varScope(); */
 
- */
 //Ex2: Let (Block Scope)
 
 /* function blockscope(){
@@ -47,8 +48,8 @@ varscope();
 
         let msg="Hello world";
         const greet="Hello const"
-        // console.log(msg);
-        // console.log(greet);
+        console.log(msg);
+        console.log(greet);
     }
     // console.log(msg);  // we cannot access as this are block scope
     // console.log(greeting); // we cannot access as this are block scope
@@ -69,8 +70,8 @@ blockscope(); */
     }
     
 }
-scopeDiff();
- */
+scopeDiff(); */
+
 
 
 //2.Declaration/value assignment
@@ -84,13 +85,13 @@ console.log(x);
 
 
 //Ex2: using let
-/* let x;  //declaration
-console.log(x);
-x=30;  //initialization
-console.log(x);
+/* let y;  //declaration
+console.log(y);
+y=30;  //initialization
+console.log(y);
  */
 
-//Ex 3: Using const
+//Ex 3: Using const  -- we must initialize at the time of declaration only.
 // const z;  //incorrect
 /* const z=50;   //correct it will print the value of z
 console.log(z);
@@ -102,8 +103,8 @@ console.log(z);
 //Ex1:var 
 /* var city="New york";
 var city="Los Angeles";
-console.log(city); */
-
+console.log(city);
+ */
 //Ex2: let
 /* let country="India";
 let country="USA";
