@@ -3,7 +3,7 @@ let b:number=20;
 
 
 //1.Arithematic operators(+,-,*,/,%,**)
-
+console.log("**********Arithematic operators**********")
 console.log(a+b);
 console.log(b-a);
 console.log(a*b);
@@ -48,8 +48,8 @@ console.log("Difference between == and ===(Strict equality)")
 let num1:any=10 ;   //number data type
 let num2:any="10";  //string data type
 
-console.log(num1==num2); // true
-console.log(num1===num2) //false
+console.log(num1==num2); // true   -- this will compare only values
+console.log(num1===num2) //false   -- this will compare both values and data types
 
 
 //4.Logical operators && || ! 
@@ -74,7 +74,6 @@ console.log("*********Mixing of logical and relational operators*******");
 
 console.log(20>10);    //true
 console.log(20>10 && 10>5);  //true
-
 console.log(10<20 ||5>10);   //true
 
 

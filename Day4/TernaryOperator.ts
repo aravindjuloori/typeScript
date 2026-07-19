@@ -19,3 +19,4 @@ let personAge:number=30;
 let result:string= (personAge>18) ? "Adult":"Minor";
 
 console.log(result);
+
