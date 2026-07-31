@@ -26,14 +26,14 @@ Touple etc..
 
 
 //1.Number type --- it represents both integers and floating point numbers
-/* let age:number=30;
+let age:number=30;
 let price:number=46.90;
 let bignumber=12323213123;
 
 
 console.log("Age is:",age);
 console.log("Price is:",price);
-console.log("Big Number is:",bignumber); */
+console.log("Big Number is:",bignumber);
 
 // console.log(typeof(age));
 // console.log(typeof(price));
@@ -49,23 +49,23 @@ console.log("Big Number is:",bignumber); */
 */
 
 
-/* let firstname:string='John';
+let firstname:string='John';
 let lastname:string="Doe";
 
 console.log("Hello",firstname,lastname);
 
 let greeting:string=`Hello ${firstname} ${lastname}`;
-console.log(greeting); */
+console.log(greeting);
 
 
 //3.Boolean Type -- it respresents true/false  -- it will be used in conditional and looping statements
 
-/* let isStudent:boolean=true;
+let isStudent:boolean=true;
 let hasJob:boolean=false;
 
 console.log("Is Student?",isStudent);
 console.log("Has Job?",hasJob);
- */
+
 
 //4.Null and Undefined --special types for the absence of value
 
@@ -76,14 +76,13 @@ console.log(emptyValue);
 console.log(notAssigned);
 
 let price1:number;
+console.log(price1);   //its compile time error */
 
-console.log(price1);   //its compile time error
- */
 
 //5.Any-  We need to use this data type carefully as it will voilates the typescript type safety.
 
 
-/* let value:any="welcome";
+let value:any="welcome";
 console.log(typeof(value));
 
 value=100;
@@ -93,12 +92,12 @@ value=true;
 console.log(typeof(value))
 
 console.log(value);
- */
+
 
 
 //6.union type  -it will combine multiple types
 
-/* let id:number |string  | boolean;
+let id:number |string  | boolean;
 id="ABC123";
 console.log(id);
 
@@ -106,10 +105,10 @@ id=12345;
 console.log(id);
 
 id=true;
-console.log(id) */
+console.log(id)
 
 //7.void Type -It is used for the functions that don't return any value
-
+/* 
 function show():void{
     console.log("Welcome");
 }
@@ -124,3 +123,4 @@ function sum(x:number,y:number):number{
 
 let result:number=sum(10,20);
 console.log(result);
+ */
