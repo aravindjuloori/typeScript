@@ -1,31 +1,42 @@
 //Variable- It is a container which is use to store data
 
-/* In JavaScript and typescript we can declare the variables by using 3 keywords var,let and const
-In Javascript and typescript specifying the datatype is optional */
+//In javascript and typescript we can declare the varaible by using 3 keywords(var,let and const)
+//In Javascript and typescript specifying the data type is optional
 
-//syntax for creating a variable
-//keyword VariableName:dataType=value;
+//Syntax for declaring variable
+//keyword variableName:dataType=value;
 
 var x=10;
-let studentName="john";
+let studentName="aravind";
 
 console.log(x);
 console.log(studentName);
 
 
-//Difference between Var,Let and Const -Based on the 5 parameters we can differentiate
-/*
-1.Scope
-2.Declaration/value assignment
-3.Re-Declaration
-4.Re-initialization/re-assignment
+//We can differentiate between the 3 keywords(var,let,const ) by using the 5 parameters
+
+/* 1.Scope
+2.Declartion/value assignment
+3.Re-declaration
+4.Re-initialization
 5.Hoisting
-*/
+ */
+
+/* var is not recommended to use in the modern javascript/typescript .Avoid var as it is function  scope & and can lead to unexpected issues.
+
+let --use let when you need a variable name to changes
+const-use const when you dont want a variable to change
+
+var is functional scope
+let and const in the block scope
+ */
+console.log("**********************************************");
+//1.scope
 
 //Var is not recommended to use in mordern javascipt/typescript.Avoid var because it has function scope and can lead to unexpected issues
 //let -- we can use let when you need a variable value that can change
 //const- we can use const when you need a variable value that we can't change it
-console.log("**********************************************");
+
 //1.Scope- It is the region of the program where a variable is defined and can be accessed
 //Ex1:var(Functional scope)
 
@@ -110,9 +121,9 @@ console.log("**********************************************");
 console.log("***Re-initialization/re-assignment***");   
 
 //Ex 1:Var allows re-initialization/re-assignment
-var age=25;
-age=30; 
-console.log(age); //30
+var age1=25;
+age1=30; 
+console.log(age1); //30
 
 let salary=50000;
 salary=60000; 
@@ -138,3 +149,4 @@ console.log(b); //20
 // console.log(c); //Error: Cannot access 'c' before initialization
 const c=30; 
 console.log(c); //30
+    
