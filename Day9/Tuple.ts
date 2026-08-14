@@ -4,11 +4,10 @@
 //Example 1: tuple with 2 values
 
 let person:[string,number]=["Aravind",101];
-/* console.log(person[0]);
-console.log(person[1]); */
+console.log(person[0]);
+console.log(person[1]);
 
 console.log(person);
-
 
 //Example 2:Tuple with multiple values
 
@@ -16,10 +15,10 @@ let user:[number,string,boolean,number,string]=[101,"aravind",true,102,"Bhavani"
 console.log(user);
 
 
+
 //Example 3:Iterating over tuple using the traditional for loop
 
 console.log("traditional for loop....")
-
 for(let i=0;i<user.length;i++){
     console.log(user[i]);
 }
@@ -38,6 +37,7 @@ for(let value of user){
 }
 
 //Example 6:tuple array(array of tuples)
+
 let students:[number,string][]=[[101,"jack"],[102,"peter"],[103,"john"]];
 console.log(students.length);
 
